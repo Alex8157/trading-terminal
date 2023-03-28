@@ -1,0 +1,62 @@
+.ticker {
+  width: 240px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+.ticker select,
+.ticker input,
+.ticker span {
+  font-size: 24px;
+  text-align: center;
+}
+
+.ticker select:hover {
+  cursor: pointer;
+}
+
+.ticker select:focus {
+  outline: none;
+}
+
+.ticker input:focus {
+  outline: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control button {
+  height: 50px;
+  width: 80px;
+  margin-top: 10px;
+  font-size: 24px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.control button:hover {
+  box-shadow: 3px 3px 5px rgb(180, 180, 180);
+}
+
+.red {
+  background-color: rgb(255, 125, 125);
+}
+
+.green {
+  background-color: rgb(125, 255, 125);
+}

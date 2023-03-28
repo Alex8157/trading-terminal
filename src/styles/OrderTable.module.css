@@ -1,0 +1,48 @@
+.orderTable {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.title {
+  font-weight: bolder;
+  user-select: none;
+}
+
+.title span {
+  cursor: pointer;
+}
+
+.title span:hover {
+  background: #cccccccc;
+}
+
+.order {
+  display: flex;
+}
+
+.order span {
+  text-align: center;
+  padding: 0 5px;
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+
+.id {
+  width: 40px;
+}
+
+.date {
+  width: 160px;
+}
+
+.other {
+  width: 100px;
+}
+
+.Buy {
+  color: green;
+}
+
+.Sell {
+  color: red;
+}
