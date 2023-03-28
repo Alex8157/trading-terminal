@@ -1,7 +1,7 @@
 export class WS {
   constructor() {
     this.socket = new WebSocket(
-      "ws://trading-server.run-eu-central1.goorm.site:80"
+      "wss://trading-server.run-eu-central1.goorm.site"
     );
   }
 
