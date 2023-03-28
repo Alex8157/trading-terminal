@@ -1,3 +1,10 @@
+#Деплой - https://alex8157.github.io/trading-terminal/
+
+##Для запуска приложения необходимо:
+Скачать проект - git clone https://github.com/Alex8157/trading-terminal;
+Открыть и установить зависимости - npm i;
+Запустить - npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
