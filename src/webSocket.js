@@ -1,8 +1,6 @@
 export class WS {
   constructor() {
-    this.socket = new WebSocket(
-      "wss://trading-server.run-eu-central1.goorm.site"
-    );
+    this.socket = new WebSocket("wss://portfolio-server-f1b6.onrender.com");
   }
 
   send(message) {
