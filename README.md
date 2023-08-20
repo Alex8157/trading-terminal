@@ -1,15 +1,9 @@
 # Деплой
-<<<<<<< HEAD
 
 https://alex8157.github.io/trading-terminal/
 
 ## Для запуска приложения необходимо:
 
-=======
-https://alex8157.github.io/trading-terminal/
-
-## Для запуска приложения необходимо:
->>>>>>> 513f5114781cbf2a9c81dbe5ef1e8d84be21c76f
 Скачать проект - git clone https://github.com/Alex8157/trading-terminal; \
 Открыть и установить зависимости - npm i;\
 Запустить - npm start.
